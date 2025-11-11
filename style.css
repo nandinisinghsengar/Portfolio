@@ -577,7 +577,7 @@
                 font-size: 18px;
             }
             
-            #box1>button {
+            #box1>a>button {
                 margin: 15px;
                 height: 15%;
                 width: 15%;
@@ -586,7 +586,7 @@
                 color: rgb(0, 0, 0);
             }
             
-            #box1>button:hover {
+            #box1>a>button:hover {
                 background-color: #026861;
             }
             
@@ -612,7 +612,7 @@
                 font-size: 18px;
             }
             
-            #box2>button {
+            #box2>a>button {
                 margin: 15px;
                 height: 15%;
                 width: 15%;
@@ -620,7 +620,7 @@
                 background-color: #1990c7;
             }
             
-            #box2>button:hover {
+            #box2>a>button:hover {
                 background-color: #026861;
             }
             
@@ -646,7 +646,7 @@
                 font-size: 18px;
             }
             
-            #box3>button {
+            #box3>a>button {
                 margin: 15px;
                 height: 15%;
                 width: 15%;
@@ -654,7 +654,7 @@
                 background-color: #1990c7;
             }
             
-            #box3>button:hover {
+            #box3>a>button:hover {
                 background-color: #026861;
             }
             
@@ -680,7 +680,7 @@
                 font-size: 18px;
             }
             
-            #box4>button {
+            #box4>a>button {
                 margin: 15px;
                 height: 15%;
                 width: 15%;
@@ -688,7 +688,7 @@
                 background-color: #1990c7;
             }
             
-            #box4>button:hover {
+            #box4>a>button:hover {
                 background-color: #026861;
             }
             
@@ -714,7 +714,7 @@
                 font-size: 18px;
             }
             
-            #box5>button {
+            #box5>a>button {
                 margin-top: 30px;
                 margin-left: 15px;
                 margin-right: 15px;
@@ -725,7 +725,7 @@
                 background-color: #1990c7;
             }
             
-            #box5>button:hover {
+            #box5>a>button:hover {
                 background-color: #026861;
             }
             
@@ -751,7 +751,7 @@
                 font-size: 18px;
             }
             
-            #box6>button {
+            #box6>a>button {
                 margin: 15px;
                 height: 15%;
                 width: 15%;
@@ -759,7 +759,7 @@
                 background-color: #1990c7;
             }
             
-            #box6>button:hover {
+            #box6>a>button:hover {
                 background-color: #026861;
             }
             
