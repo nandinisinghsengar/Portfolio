@@ -12,19 +12,23 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <div id="left">
             <img src="logo.png">
         </div>
         <div id="right">
-            <ul>
+            <!--menu for mobile-->
+            <div class="menu-icon" id="menu-icon"> <i class="fa-solid fa-bars"></i></div>
+
+            <!--for big screen-->
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#page1">Home</a></li>
                 <li><a href="#page2">Education</a></li>
                 <li><a href="#page3">Skills</a></li>
                 <li><a href="#page4">Projects</a></li>
                 <li><a href="NandiniSingh.pdf" download="NandiniSingh.pdf"><button>Get Resume</button></a></li>
             </ul>
-            <div class="menu-icon" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i></div>
+
         </div>
     </nav>
     <div id="main">
@@ -143,22 +147,22 @@
                     <h1> Personal Portfolio </h1>
                     <p>A modern and responsive personal portfolio website built with HTML,CSS, and JavaScript. Showcasing my projects, skills and achivements in a clean and elegant design.
                     </p>
-                    <a href="phttps://my-portfolio-five-topaz-9q9klms0fb.vercel.app/" target="_blank"><button> Live </button></a>
-                    <a href="" target="_blank"><button> Code </button></a>
+                    <a href="portfolio-two-sigma-81.vercel.app" target="_blank"><button> Live </button></a>
+                    <a href="https://github.com/nandinisinghsengar/Portfolio" target="_blank"><button> Code </button></a>
                 </div>
                 <div id="box2">
                     <h1>Color Switcher </h1>
                     <p>A small demo website that changes the page background color when you click buttons. built with HTML, and CSS - ideal for beginners.
                     </p>
                     <a href="portfolio-two-sigma-81.vercel.app" target="_blank"><button> Live </button></a>
-                    <a href="" target="_blank"><button> Code </button></a>
+                    <a href="https://github.com/nandinisinghsengar/background-colour" target="_blank"><button> Code </button></a>
                 </div>
                 <div id="box3">
                     <h1> Click The Button - Game</h1>
                     <p>A fun "Click the Button" mini-game made with HTML, CSS,and JavaScript - test your speed and reflexes by clicking the moving button before time run out.</Button>
                     </p>
-                    <a href="portfolio-two-sigma-81.vercel.app" target="_blank"><button> Live </button></a>
-                    <a href="" target="_blank"><button> Code </button></a>
+                    <a href="https://button-game-bice.vercel.app" target="_blank"><button> Live </button></a>
+                    <a href="https://github.com/nandinisinghsengar/button-game" target="_blank"><button> Code </button></a>
                 </div>
 
             </div>
@@ -166,14 +170,14 @@
                 <div id="box4">
                     <h1> Myntra Clone website </h1>
                     <p>a responsive Myntra Clone website built with HTML, CSS, and JavaScript - replicating the UI and core features of the myntra online fashion store.</p>
-                    <a href="https://myntraclone-six.vercel.app/" target="_blank"><button> Live </button></a>
+                    <a href="https://myntraclone-six.vercel.app" target="_blank"><button> Live </button></a>
                     <a href="https://github.com/nandinisinghsengar/Myntraclone" target="_blank"><button> Code </button></a>
                 </div>
                 <div id="box5">
                     <h1>ID card generator </h1>
                     <p>A simple ID card generator website built with HTML, CSS, and JavaScript - create and preview custom Id cards instantly.</p>
-                    <a href="portfolio-two-sigma-81.vercel.app" target="_blank"><button> Live </button></a>
-                    <a href="" target="_blank"><button> Code </button></a>
+                    <a href="id-card-sable-theta.vercel.app" target="_blank"><button> Live </button></a>
+                    <a href="https://github.com/nandinisinghsengar/id-card" target="_blank"><button> Code </button></a>
                 </div>
                 <div id="box6">
                     <h1> Quiz Website</h1>
@@ -219,11 +223,7 @@
             </div>
         </footer>
     </div>
-    <script>
-        function toggleMenu() {
-            document.getElementById("right").classList.toggle("show");
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
